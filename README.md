@@ -1,2 +1,2 @@
 # descuento-por-categorias
-Plugins para añadir descuentos en las categorias de productos de woocommerce
+Plugins para añadir descuentos en los de productos de woocommerce, seleccionado las categorias principales o subcategorias
