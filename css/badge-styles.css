@@ -1,0 +1,106 @@
+/* Estilos para las insignias */
+
+/* Aplicar estilo al contedor de cada producto de la vista general (shop-loop) */
+.wp-block-post-template.is-flex-container > li {
+    position: relative;
+}
+
+/* Eliminar la etiqueta por defecto de WooComerce*/
+
+.editor-styles-wrapper .wc-block-grid__products .wc-block-grid__product .wc-block-components-product-image .wc-block-components-product-sale-badge--align-right, .wc-block-components-product-image .wc-block-components-product-sale-badge--align-right {
+    display: none;
+}
+
+/* Posicionar la insignia en la vista detallada (single-prodcut) */
+
+div.wp-block-columns:nth-child(3) {
+    position: relative;
+}
+
+/* #badge-preview img {
+    max-width: 100px;
+    margin-top: 10px; 
+} */
+
+.dpc-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    max-width: 50px;
+    z-index: 1;
+}
+
+/* Insignias en la página de tienda */
+.dpc-badge.shop-loop {
+    width: 50px; /* Tamaño para las insignias en la tienda */
+    height: auto;
+}
+
+/* Insignias en la página de producto individual */
+.dpc-badge.single-product {
+    width: 75px; /* Tamaño para las insignias en la página de producto individual */
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.dpc-badge.related-product {
+    width: 75px; /* Tamaño para las insignias en la página de producto individual */
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.dpc-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    z-index: 1;
+    border-radius: 3px;
+}
+
+.badge1 {
+    background-color: #1E90FF;
+}
+
+.badge2 {
+    background-color: #32CD32;
+}
+
+.badge3 {
+    background-color: #FFD700;
+}
+.wrap-ofertas table.wp-list-table th, 
+.wrap-ofertas table.wp-list-table td {
+    padding: 10px;
+}
+
+.wrap-ofertas table.wp-list-table td {
+    vertical-align: middle;
+}
+
+.wrap-ofertas .badge1 {
+    background-color: #1E90FF;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.wrap-ofertas .badge2 {
+    background-color: #32CD32;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.wrap-ofertas .badge3 {
+    background-color: #FFD700;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 3px;
+}

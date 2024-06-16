@@ -1,0 +1,129 @@
+
+.dpc-plugin-panel {
+    padding: 50px;
+    width: 60%;
+    margin: 50px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+}
+
+.dpc-section {
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+
+.dpc-form {
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+}
+
+.dpc-form-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.dpc-form-group {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 15px;
+    padding: 0 10px;
+}
+
+.dpc-form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.dpc-form-group input[type="text"],
+.dpc-form-group input[type="number"],
+.dpc-form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.dpc-form-group input[type="submit"] {
+    background: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.dpc-form-group input[type="submit"]:hover {
+    background: #005177;
+}
+
+.custom-select-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.custom-select select {
+    width: 70%;
+    padding-right: 40%;
+    box-sizing: border-box;
+}
+
+.badge-preview-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badge-preview {
+    max-width: 80px;
+    max-height: 80px;
+    margin: 0 auto;
+}
+
+.badge-preview img {
+    max-width: 80%;
+    max-height: 80%;
+    vertical-align: middle;
+}
+
+.wp-list-table.widefat.fixed.striped {
+    margin-top: 20px;
+}
+
+.wp-list-table .column-title {
+    width: 20%;
+}
+
+.wp-list-table .column-preview {
+    width: 20%;
+}
+
+.wp-list-table .column-actions {
+    width: 20%;
+}
+
+#badge-preview img {
+    display: block;
+    margin-top: 10px;
+}
+
+.button.dpc-add-insignia,
+.button.dpc-add-offer {
+    margin-top: 20px;
+}
+
+
+
+
+
